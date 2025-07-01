@@ -40,7 +40,6 @@ ini_set("display_errors", 0);
     </noscript>
 
 
-    <link href="{{ asset('assets/css/estilos-adicionais-principal.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/css/pe-icon-7.css') }}" rel="stylesheet" type="text/css" />
 
     <!-- Swiper-slider Css -->
@@ -50,12 +49,15 @@ ini_set("display_errors", 0);
     <link href="{{ asset('assets/css/style.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- <link rel="stylesheet" href="assets/css/materialdesignicons.min.css"> -->
 
+    <!-- Estilos Adicionais -->
+    <link href="{{ asset('assets/css/estilos-adicionais-secundario.css') }}" rel="stylesheet" type="text/css" />
+
     <link rel="preload" href="{{ asset('assets/css/materialdesignicons.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="{{ asset('assets/css/materialdesignicons.min.css') }}">
     </noscript>
-
-
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="60">
@@ -71,7 +73,7 @@ ini_set("display_errors", 0);
     </div>
     <!-- END PRELOADER -->
 
-    <x-navbar-index></x-navbar-index>
+    <x-navbar-secundario></x-navbar-secundario>
     
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
@@ -98,7 +100,7 @@ ini_set("display_errors", 0);
 
 
     <!-- START FOOTER -->
-    
+   
     <!-- END FOOTER -->
 
 

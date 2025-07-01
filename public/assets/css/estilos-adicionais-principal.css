@@ -1,0 +1,41 @@
+input::placeholder {
+    color: #506190 !important;
+}
+
+.div-mobile-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-landing {
+    background-color: #ffffff;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: #002bbb;
+}
+
+.link-footer-landing,
+.icone-footer-landing {
+    color: #002bbb;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .div-img-bolsas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-bolsa {
+        width: 17em;
+        margin: auto;
+    }
+}
