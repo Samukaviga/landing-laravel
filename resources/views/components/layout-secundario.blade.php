@@ -70,7 +70,7 @@ ini_set("display_errors", 0);
     </div>
     <!-- END PRELOADER -->
 
-    <x-navbar-index></x-navbar-index>
+    <x-navbar-secundario></x-navbar-secundario>
     
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
