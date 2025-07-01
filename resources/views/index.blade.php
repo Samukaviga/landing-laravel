@@ -18,42 +18,54 @@
                 <div class="col-md-1"></div>
 
                 <div class="col-md-5 relative align-self-center mt-5">
-                    <x-form action="/">    
-                        
+                    <x-form action="/">
+
                         <h2 class="mb-4 mt-0 text-center fw-bold">Inscreva<span class="carc">-</span>se<span class="carc">!</span></h2>
-                        
+
                         <div class="form-group">
                             <label style="color:#333; font-weight:400;">Nome</label>
-                            <input type="text" class="form-control pb_height-50 reverse" name="name" id="nome" placeholder="Nome completo*" value="" required >
+                            <input type="text" class="form-control pb_height-50 reverse" name="name" id="nome" placeholder="Nome completo*" value="" required>
                         </div>
-                        
+
                         <div class="form-group">
                             <label style="color:#333; font-weight:400;">Celular</label>
                             <input inputmode="numetic" type="text" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{4,6}$" class="form-control pb_height-50 reverse mobile " name="mobile"
-                                placeholder="WhatsApp / Celular*" id="whatsapp" required> 
+                                placeholder="WhatsApp / Celular*" id="whatsapp" required>
                         </div>
 
                         <div class="form-group">
                             <label style="color:#333; font-weight:400;">Data de Nascimento</label>
                             <input type="text" class="form-control pb_height-50 reverse " name="nascimento"
-                                placeholder="Data de Nascimento*" id="nascimento" required >
+                                placeholder="Data de Nascimento*" id="nascimento" required>
                         </div>
 
                         <div class="form-group">
                             <div class="pb_select-wrap">
-                                
+                                <label for="course_1">Curso 1</label>
+                                <select class="form-control pb_height-50 reverse" name="course_1" required id="course_1">
+                                    <option value="" hidden selected>Curso (Opção 1)*</option>
+                                    <option value="">Informatica</option>
+                                </select>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="pb_select-wrap">
-
+                                <label for="course_2">Curso 2</label>
+                                <select class="form-control pb_height-50 reverse" name="course_2" required id="course_2">
+                                    <option value="" hidden selected>Curso (Opção 2)*</option>
+                                    <option value="">Cabeleireiro</option>
+                                </select>
                             </div>
                         </div>
-                        
+
                         <div class="form-group">
                             <div class="pb_select-wrap">
-
+                                <label for="course_3">Curso 3</label>
+                                <select class="form-control pb_height-50 reverse" name="course_3" required id="course_3">
+                                    <option value="" hidden selected>Curso (Opção 3)*</option>
+                                    <option value="">Lash Designer</option>
+                                </select>
                             </div>
                         </div>
 

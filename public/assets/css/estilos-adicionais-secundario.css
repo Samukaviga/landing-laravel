@@ -15,6 +15,22 @@
     align-items: center;
   }
 
+  .botao-entrar-grupo {
+    margin-top: 10em;
+    color: #fff;
+    padding: 0.8em 5em;
+    background-color: #25D366;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+  .botao-entrar-grupo:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1eb656;
+}
+
   label {
       display: flex;
       align-items: center;
