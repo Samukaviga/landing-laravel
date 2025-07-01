@@ -421,11 +421,11 @@
         <div class="container">
 
             <div style="text-align:center" class="section-title">
-                <h4 style="color:#002bbb">
-                    Samuel
+                <h4 style="color:#8b0404">
+                    Atenção
                 </h4>
             
-                <p style="font-size:20px;"><i>Para finalizar seu cadastro , informe seu <b>endereço</b></i></p>
+                <p style="font-size:20px;"><i>Olá <b>Samuel</b>, Falta pouco para completar o seu cadastro!</i></p>
 
 
             </div>
@@ -469,17 +469,6 @@
                                 <label style="color:#333; font-weight:400;">Cidade</label>
                                 <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" name="cidade" id="cidade" class="form-control" required>
                             </div>
-
-                            <div class="col-md-2 form-group">
-                                <label style="color:#333; font-weight:400;">Gênero</label>
-                                <select style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" id="genero" name="genero" class="form-select">
-                                    <option selected value="">...</option>
-                                    <option value="M">Masculino</option>
-                                    <option value="F">Feminino</option>
-                                </select>
-
-                            </div>
-
                         </div>
 
                         <div class="row">

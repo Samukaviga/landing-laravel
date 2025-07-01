@@ -10,7 +10,11 @@ class SiteController extends Controller
         return view('index');
     }
 
-    public function completarCadastro(){
-        return view('completar-cadastro');
+    public function fillRegister(){
+        return view('pages.fill-register');
+    }
+
+    public function congratulations(){
+        return view('pages.congratulations');
     }
 }

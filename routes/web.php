@@ -5,4 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [SiteController::class, 'index'])->name('index');
 
-Route::get('/completar-cadastro', [SiteController::class, 'completarCadastro']);
+Route::get('/completar-cadastro', [SiteController::class, 'fillRegister']);
+
+Route::get('/parabens', [SiteController::class, 'congratulations']);
+
