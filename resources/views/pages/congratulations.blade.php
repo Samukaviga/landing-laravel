@@ -24,7 +24,7 @@
           
           <p>Entre em nosso <b><i style="color:#002bbb">grupo de whatsapp</i></b> e fique informado sobre novidades!</p>
 
-          <a class="botao-entrar-grupo " style="font-size:18px;" href="/"> <i class="fa-brands fa-whatsapp"></i> Entrar no grupo </a>
+          <a class="botao-entrar-grupo " style="font-size:18px;" href="https://chat.whatsapp.com/I6Afo3MMFru84agcsGgVGT"> <i class="fa-brands fa-whatsapp"></i> Entrar no grupo </a>
 
         </div>
 
