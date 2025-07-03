@@ -465,16 +465,23 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-md-7 form-group">
+                            <div class="col-md-5 form-group">
                                 <label style="color:#333; font-weight:400;">Cidade</label>
                                 <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" name="cidade" id="cidade" class="form-control" required>
                             </div>
+                                   <div class="col-md-5 form-group">
+                                <label style="color:#333; font-weight:400;">E-mail</label>
+                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                       
                         </div>
+
+                     
 
                         <div class="row">
                             <div class="col-md-12 form-group" style="text-align:center ;">
 
-                                <button style="background-color: 910319;" onclick="save();" type="button" class="btn btn-primary btn-lg btn-block pb_btn-pill ">Salvar</button>
+                                <button style="background-color: 910319;" type="button" class="btn btn-primary btn-lg btn-block pb_btn-pill ">Salvar</button>
                             </div>
                         </div>
 
