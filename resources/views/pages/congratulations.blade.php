@@ -22,7 +22,7 @@
           
           <i>Em breve iremos entrar em contato por whatsapp.</i>
           
-          <p>Entre em nosso <b><i style="color:#002bbb">grupo de whatsapp</i></b> e fique informado sobre novidades!</p>
+          <p>Para continuar por dentro de todas as informações sobre o processo de bolsas, prazos, atualizações e orientações importantes, entre agora no nosso <b><i style="color:#002bbb">grupo de Whatsapp!</i></b></p>
 
           <a class="botao-entrar-grupo " style="font-size:18px;" href="https://chat.whatsapp.com/I6Afo3MMFru84agcsGgVGT"> <i class="fa-brands fa-whatsapp"></i> Entrar no grupo </a>
 
