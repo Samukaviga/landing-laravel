@@ -440,26 +440,26 @@
                         <div class="row">
                             <div class="col-md-3 form-group">
                                 <label style="color:#333; font-weight:400; ">CEP</label>
-                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" name="cep" id="cep" class="form-control" required>
+                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" name="postal_code" id="postal_code" class="form-control" required>
                             </div>
                             <div class="col-md-9 form-group ">
                                 <label style="color:#333; font-weight:400;">Rua</label>
-                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" class="form-control" name="rua" id="rua" placeholder="rua" required>
+                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" class="form-control" name="address" id="address" placeholder="rua" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-2 form-group">
                                 <label style="color:#333; font-weight:400;">Numero</label>
-                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" name="numero" id="numero" class="form-control" required>
+                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" name="address_number" id="address_number" class="form-control" required>
                             </div>
                             <div class="col-md-4 form-group">
                                 <label style="color:#333; font-weight:400;">Complemento</label>
-                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" class="form-control" name="compl" id="compl" required>
+                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" class="form-control" name="address_complement" id="address_complement" required>
                             </div>
                             <div class="col-md-6 form-group">
                                 <label style="color:#333; font-weight:400;">Bairro</label>
-                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" class="form-control" name="bairro" id="bairro" required>
+                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" class="form-control" name="neighborhood" id="neighborhood" required>
                                 <input type="hidden" name="uf" id="uf">
                             </div>
                         </div>
@@ -467,7 +467,7 @@
                         <div class="row">
                             <div class="col-md-5 form-group">
                                 <label style="color:#333; font-weight:400;">Cidade</label>
-                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" name="cidade" id="cidade" class="form-control" required>
+                                <input style="border:1px solid#cecece; height:50px; color:#333; font-weight:500;" type="text" name="city" id="city" class="form-control" required>
                             </div>
                                    <div class="col-md-5 form-group">
                                 <label style="color:#333; font-weight:400;">E-mail</label>
