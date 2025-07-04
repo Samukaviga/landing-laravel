@@ -2,6 +2,19 @@ input::placeholder {
     color: #506190 !important;
 }
 
+.logo-light{
+    margin-right: 10px;
+}
+
+.logo-dark{
+    margin: 10px 0px;
+}
+
+.nav-link-mobile{
+    display: flex;
+    gap: 15px;
+}
+
 .div-mobile-logo {
     width: 100%;
     display: flex;
