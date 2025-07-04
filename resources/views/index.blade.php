@@ -29,14 +29,14 @@
 
                         <div class="form-group">
                             <label style="color:#333; font-weight:400;">Celular</label>
-                            <input inputmode="numetic" type="text" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{4,6}$" class="form-control pb_height-50 reverse mobile " name="mobile"
-                                placeholder="WhatsApp / Celular*" id="whatsapp" required>
+                            <input inputmode="numetic" type="text" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{4,6}$" class="form-control pb_height-50 reverse mobile " name="mobile_phone"
+                                placeholder="WhatsApp / Celular*" id="mobile_phone" required>
                         </div>
 
                         <div class="form-group">
                             <label style="color:#333; font-weight:400;">Data de Nascimento</label>
-                            <input type="text" class="form-control pb_height-50 reverse " name="nascimento"
-                                placeholder="Data de Nascimento*" id="nascimento" required>
+                            <input type="text" class="form-control pb_height-50 reverse " name="date_of_birth"
+                                placeholder="Data de Nascimento*" id="date_of_birth" required>
                         </div>
 
                         <div class="form-group">
